@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    header{
+  height: 80px;
+  background-color: blue;
+}
+main{
+  height: 400px;
+  background-color: red;
+}
+footer{
+  height: 60px;
+  background-color: gray;
+}
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .flex-container1 > div{
+    background-color:blueviolet;
+    width: 105px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+  }
+  .flex-container2  {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container3 {
+    display: flex;
+    justify-content: center;
+  }
+img{
+  width: 140px;
+  height: 110px;
+}
+   </style>
+</head>
+<body>
+    <header>
+        <div class="flex-container1">
+            <div><a href="home.html" target="_blank">HOME</a></div>
+            <div><a href="dept.html" target="_blank">DEPT</a></div>
+            <div><a href="about.html" target="_blank">ABOUT</a></div>
+        </div>
+    </header>
+    <main>
+        <div class="flex-container2">
+            <div><img src="rgm1.jpeg" alt="img1" id="a"></div><br>
+            <div><img src="rgm2.jpg" alt="img2" id="b"></div><br>
+            <div><img src="rgm3.jpeg" alt="img3" id="c"></div><br>
+        </div>
+    </main>
+    <footer>
+        <div class="flex-container3">
+            <div style="padding-top: 17px;padding-bottom: 17px;">Contact us at <a href="https://www.rgmcet.edu.in/">rgmcet.edu.in</a></div>
+        </div>
+    </footer>
+</body>
+</html>
